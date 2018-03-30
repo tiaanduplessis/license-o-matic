@@ -1,5 +1,7 @@
 
 # license-o-matic
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/tiaanduplessis/license-o-matic.svg)](https://greenkeeper.io/)
 [![package version](https://img.shields.io/npm/v/license-o-matic.svg?style=flat-square)](https://npmjs.org/package/license-o-matic)
 [![package downloads](https://img.shields.io/npm/dm/license-o-matic.svg?style=flat-square)](https://npmjs.org/package/license-o-matic)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
