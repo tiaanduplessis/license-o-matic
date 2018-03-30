@@ -11,10 +11,9 @@ const fileName = args.fileName || 'LICENSE'
 const licenseName = args.license || 'mit'
 
 if (args.unknown && args.unknown.length && args.unknown[0] === 'ls') {
-    console.log(`\n- ${licenseOMatic.getIdentifiers().join('\n- ')}\n`)
+  console.log(`\n- ${licenseOMatic.getIdentifiers().join('\n- ')}\n`)
 } else {
-    const license = licenseOMatic.getLicense(licenseName)
-    fs.writeFileSync(path.join(process.cwd(), fileName), license(args))
-    console.log('License created')
+  const license = licenseOMatic.getLicense(licenseName)
+  fs.writeFileSync(path.join(process.cwd(), fileName), license(args))
+  console.log('License created')
 }
-
