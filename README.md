@@ -70,7 +70,7 @@ $ # - mpl-2.0
 $ # - unlicense
 $ # - lgpl-3.0-only
 $ # 
-$ license-matic --license=mit --copyrightHolder="Tiaan du Plessis"
+$ license-o-matic --license=mit --copyrightHolder="Tiaan du Plessis"
 $ # License created
 ```
 
