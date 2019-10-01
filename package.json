@@ -18,7 +18,7 @@
   ],
   "bin": "cli.js",
   "devDependencies": {
-    "jest": "22.4.3",
+    "jest": "24.9.0",
     "standard": "11.0.1"
   },
   "standard": {
