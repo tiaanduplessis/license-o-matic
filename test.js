@@ -20,3 +20,12 @@ test('should create MIT license', () => {
 test('should throw if license does not exist', () => {
   expect(() => licenseOMatic.getLicense('fooopper')).toThrow()
 })
+
+test('can generate all licenses', () => {
+  const identifiers = licenseOMatic.getIdentifiers()
+  const allLicenses = identifiers.every(id => {
+    const license = licenseOMatic.getLicense(id)
+    return license({copyrightHolder: 'foooper'})
+  })
+  expect(allLicenses).toBeTruthy()
+})

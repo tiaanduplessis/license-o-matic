@@ -1,6 +1,6 @@
-const licenseOMatic = require("./index.js");
+const licenseOMatic = require('./index.js')
 
-console.log(licenseOMatic.getIdentifiers());
+console.log(licenseOMatic.getIdentifiers())
 // [ 'mit',
 //   'apache-2.0',
 //   'gpl-3.0-only',
@@ -8,9 +8,9 @@ console.log(licenseOMatic.getIdentifiers());
 //   'unlicense',
 //   'lgpl-3.0-only' ]
 
-const mit = licenseOMatic.getLicense("mit");
+const mit = licenseOMatic.getLicense('mit')
 
-console.log(mit({ copyrightHolder: "Tiaan du Plessis" }));
+console.log(mit({ copyrightHolder: 'Tiaan du Plessis' }))
 // MIT License
 
 // Copyright (c) 2018 Tiaan du Plessis

@@ -1,4 +1,4 @@
-module.exports = () => `
+module.exports = ({copyrightHolder = '', year}) => `
 SUN PUBLIC LICENSE Version 1.0
 1. Definitions.
 1.0.1. "Commercial Use" means distribution or otherwise making the Covered Code available to a third party.
@@ -165,4 +165,4 @@ Copyright (c) ${year ||
     new Date().getFullYear()} ${copyrightHolder} All Rights Reserved.
 
 
-`;
+`

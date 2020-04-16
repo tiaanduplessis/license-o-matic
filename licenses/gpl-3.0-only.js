@@ -1,4 +1,4 @@
-module.exports = () => `
+module.exports = ({copyrightHolder = '', year}) => `
 GNU GENERAL PUBLIC LICENSE
 Version 3, 29 June 2007
 
@@ -653,7 +653,7 @@ Also add information on how to contact you by electronic and paper mail.
 If the program does terminal interaction, make it output a short
 notice like this when it starts in an interactive mode:
 
-<program>  Copyright (C) <year>  <name of author>
+Copyright (C) ${year || new Date().getFullYear()} ${copyrightHolder}
 This program comes with ABSOLUTELY NO WARRANTY; for details type 'show w'.
 This is free software, and you are welcome to redistribute it
 under certain conditions; type 'show c' for details.
@@ -673,4 +673,4 @@ may consider it more useful to permit linking proprietary applications with
 the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 <http://www.gnu.org/philosophy/why-not-lgpl.html>.
-`;
+`
