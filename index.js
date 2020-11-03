@@ -1,5 +1,6 @@
 const licenses = {
     mit: require("./licenses/mit"),
+    isc: require("./licenses/isc"),
     "apache-2.0": require("./licenses/apache-2.0"),
     "gpl-3.0-only": require("./licenses/gpl-3.0-only"),
     "mpl-2.0": require("./licenses/mpl-2.0"),
