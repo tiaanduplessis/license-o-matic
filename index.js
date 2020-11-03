@@ -5,7 +5,7 @@ const licenses = {
   'mpl-2.0': require('./licenses/mpl-2.0'),
   unlicense: require('./licenses/unlicense'),
   'lgpl-3.0-only': require('./licenses/lgpl-3.0-only'),
-
+  isc: require("./licenses/isc"),
   // new added @NikhilNamal17
   'abstyles-license': require('./licenses/abstyles-license.js'),
   'academic-free-license-v3': require('./licenses/academic-free-license-v3.0.js'),
